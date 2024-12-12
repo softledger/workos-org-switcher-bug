@@ -19,7 +19,9 @@ This is a minimal reproduction of a bug with the WorkOS organization switcher fu
 3. Create a `.env` file in the root directory with the following content:
 
    ```
-   WORKOS_CLIENT_ID=org_01JC1M6GPHQF2T2Z52PRP99SW4
+   VITE_WORKOS_CLIENT_ID=XXXXXX
+   VITE_WORKOS_DEV_MODE=true/false
+   VITE_ORGANIZATION_IDS=XXXXXX,YYYYYY
    ```
 
 4. Start the development server
